@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <!-- Poppins Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navigation">
+        <a href="#intro" class="logo">
+            <span>Book</span>Bank
+        </a>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#best-selling-books">Best Selling Books</a></li>
+            <li><a href="#recommendations">Our Recommendations</a></li>
+            <li><a href="#download-app">Our App</a></li>
+        </ul>
+
+        <!-- right-nav -->
+        <div class="right-nav">
+            <a href="" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <a href="" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+            <a href="" class="login">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+    </nav>
+
+
+
+    <section id="intro">
+        <div class="intro-container">
+            <div class="intro-box">
+                <h3 class="logo"><span>Book</span> Bank</h3>
+                <p>Lorem ipsum dolor sit amet adipisicing elit. Perspiciatis, facilis veritatis eligendi est nisi, voluptatem quaerat, ducimus modi nihil cupiditate libero unde. Maxime cumque aspernatur temporibus facere nobis, libero animi.</p>
+                <a href="#best-selling-books" class="button">
+                    Best Selling Books
+                </a>
+            </div>
+            <!-- box -->
+            <div class="intro-box">
+                <img src="image/intro_img.PNG" alt="book-shelf">
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- Categories -->
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+        </div>
+        <div class="category-container">
+            <a href="#recommendations" class="category-box">
+                <img src="image/fiction.png" alt="Fiction">
+                <span>Fiction</span>
+            </a>
+            <a href="#recommendations" class="category-box">
+                <img src="image/adventure.jfif" alt="Adventure">
+                <span>Adventure</span>
+            </a>
+            <a href="#recommendations" class="category-box">
+                <img src="image/romantic.png" alt="Romantic">
+                <span>Romantic</span>
+            </a>
+            <a href="#recommendations" class="category-box">
+                <img src="image/drama.png" alt="Drama">
+                <span>Drama</span>
+            </a>
+            <a href="#recommendations" class="category-box">
+                <img src="image/fabel.jpg" alt="Fabel">
+                <span>Fabel</span>
+            </a>
+            <a href="#recommendations" class="category-box">
+                <img src="image/tragedy.jfif" alt="Tragedy">
+                <span>Tragedy</span>
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- Best Selling -->
+    <section id="best-selling-books">
+        <div class="product-heading">
+            <h3>Best Selling Books</h3>
+            <span>Grab a handsome of our best selling books</span>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="image/harry-potter-cc.jpg" alt="harry potter cursed child">
+                <strong>Harry Potter Cursed Child</strong>
+                <span class="writer">J.K. Rowling</span>
+                <span class="genre">Fantasy, Adventure, Drama</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;599</s></span>
+                    <span class="price-new">&#8377;549</span>
+                </div>
+                <a href="#best-selling-books" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#best-selling-books" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/after.webp" alt="after">
+                <strong>After</strong>
+                <span class="writer">Anna Todd</span>
+                <span class="genre">Romance, Contemporary</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;399</s></span>
+                    <span class="price-new">&#8377;349</span>
+                </div>
+                <a href="#best-selling-books" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#best-selling-books" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/an-orphan-war.jpg" alt="an orphan's war">
+                <strong>An Orphan's War</strong>
+                <span class="writer">Molly Green</span>
+                <span class="genre">Fiction, Romance</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;299</s></span>
+                    <span class="price-new">&#8377;249</span>
+                </div>
+                <a href="#best-selling-books" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#best-selling-books" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/fifty-shades-of-grey.jpg" alt="fifty shades of grey">
+                <strong>Fifty Shades of Grey</strong>
+                <span class="writer">E L James</span>
+                <span class="genre">Romance, Fiction</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;399</s></span>
+                    <span class="price-new">&#8377;349</span>
+                </div>
+                <a href="#best-selling-books" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#best-selling-books" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/sherlock-holmes-vol1.jpg" alt="sherlock holmes vol 1">
+                <strong>Sherlock Holmes (Vol 1)</strong>
+                <span class="writer">Sir Arthur Conan Doyle</span>
+                <span class="genre">Mystery, Detective, Crime Fiction</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;299</s></span>
+                    <span class="price-new">&#8377;249</span>
+                </div>
+                <a href="#best-selling-books" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#best-selling-books" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/two-states.jpg" alt="two states">
+                <strong>2 States</strong>
+                <span class="writer">Chetan Bhagat</span>
+                <span class="genre">Romance, Comedy, Drama</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;499</s></span>
+                    <span class="price-new">&#8377;399</span>
+                </div>
+                <a href="#best-selling-books" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#best-selling-books" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Frequently Bought Series -->
+    <section id="frequently-bought-series">
+        <div class="product-heading">
+            <h3>Frequently Bought Series</h3>
+            <span>Have a sneak peek on our most bought series</span>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="image/harry-all.jfif" alt="harry potter all">
+                <strong>Harry Potter Set</strong>
+                <span class="writer">J.K. Rowling</span>
+                <span class="genre">Adventure, Fantasy, Drama</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;2999</s></span>
+                    <span class="price-new">&#8377;2449</span>
+                </div>
+                <a href="#frequently-bought-series" class="cart-btn cart-btn-1">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#frequently-bought-series" class="like-btn like-btn-1">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/sherlock-all.webp" alt="sherlock holmes all">
+                <strong>Sherlock Holmes Set</strong>
+                <span class="writer">Sir Arthur Conan Doyle</span>
+                <span class="genre">Mystery, Detective, Crime Fiction</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;2499</s></span>
+                    <span class="price-new">&#8377;1999</span>
+                </div>
+                <a href="#frequently-bought-series" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#frequently-bought-series" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/after-all.jfif" alt="after all">
+                <strong>After Set</strong>
+                <span class="writer">Anna Todd</span>
+                <span class="genre">Romance, Contemporary</span>
+                <div class="price">
+                <span class="price-old"><s>&#8377;1899</s></span>
+                    <span class="price-new">&#8377;1749</span>
+                </div>
+                <a href="#frequently-bought-series" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#frequently-bought-series" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="recommendations">
+        <div class="recom-header">
+            <div class="product-heading">
+                <h3>Our Recommendations</h3>
+                <span>Check out some more books</span>
+            </div>
+        </div>
+        <!-- Search Box -->
+        <form action="" class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" class="search-text" placeholder="Search your book here" name="Search" required>
+            <input type="submit" class="search-btn" value="Search">
+        </form>
+
+        <div class="product-container">
+            <div class="product-box">
+                <img src="image/the-fault-in-our-stars.jpg" alt="the fault in our stars">
+                <strong>The Fault in Our Stars</strong>
+                <span class="writer">John Green</span>
+                <span class="genre">Fiction, Romance</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;399</s></span>
+                    <span class="price-new">&#8377;349</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/harry-potter-ps.jpg" alt="harry potter philosopher stone">
+                <strong>Harry Potter and the Philosopher's Stone</strong>
+                <span class="writer">J.K. Rowling</span>
+                <span class="genre">Adventure, Fantasy</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;399</s></span>
+                    <span class="price-new">&#8377;349</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/half-gf.jpg" alt="half gf">
+                <strong>Half Girlfriend</strong>
+                <span class="writer">Chetan Bhagat</span>
+                <span class="genre">Romance, Drama</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;199</s></span>
+                    <span class="price-new">&#8377;149</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/tomb-of-sand.jpg" alt="tomb of sand">
+                <strong>Tomb of Sand</strong>
+                <span class="writer">Geetanjali Shree</span>
+                <span class="genre">Domestic Fiction</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;349</s></span>
+                    <span class="price-new">&#8377;299</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/wuthering-heights.jpg" alt="wuthering heights">
+                <strong>Wuthering Heights</strong>
+                <span class="writer">Emily Bronte</span>
+                <span class="genre">Fiction, Tragedy</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;299</s></span>
+                    <span class="price-new">&#8377;249</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/romeo-and-juliet.jpg" alt="romeo and juliet">
+                <strong>Romeo and Juliet</strong>
+                <span class="writer">William Shakespere</span>
+                <span class="genre">Tragedy, Romance</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;399</s></span>
+                    <span class="price-new">&#8377;299</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/the-lost-world.jpg" alt="the lost world">
+                <strong>The Lost World</strong>
+                <span class="writer">Sir Arthur Conan Doyle</span>
+                <span class="genre">Science Fiction, Adventure Fiction</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;349</s></span>
+                    <span class="price-new">&#8377;29   9</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/fifty-shades-freed.jpg" alt="fsf">
+                <strong>Fifty Shades Freed</strong>
+                <span class="writer">E L James</span>
+                <span class="genre">Romance, Thriller</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;299</s></span>
+                    <span class="price-new">&#8377;199</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="image/beautiful-disaster.jpg" alt="beautiful disaster">
+                <strong>Beautiful Disaster</strong>
+                <span class="writer">Jamie McGuire</span>
+                <span class="genre">Romance, Contemporary</span>
+                <div class="price">
+                    <span class="price-old"><s>&#8377;449</s></span>
+                    <span class="price-new">&#8377;399</span>
+                </div>
+                <a href="#recommendations" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>&nbsp;Add To Cart
+                </a>
+                <a href="#recommendations" class="like-btn">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Clients -->
+    <section id="clients">
+        <div class="client-heading">
+            <h3>What Our Client's Say</h3>
+        </div>
+        <div class="client-box-container">
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="image/client-1.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Jamie Dornan</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, beatae!</p>
+            </div>
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="image/client-2.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Mark Davy</strong>
+                        <span>Author</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, beatae!</p>
+            </div>
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="image/client-3.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Josephine Alexandra</strong>
+                        <span>Poet</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, beatae!</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2>Your words <strong>MATTER!</strong></h2>
+            <p>Please fill-up the review form</p>
+            <div class="form-input">
+                <div class="name">
+                    <label for="" class="contact-label">Name</label>
+                    <input type="text" class="input-bar">
+                </div>
+            </div>
+            <div class="form-input">
+                <div class="email">
+                    <label for="" class="contact_label">E-mail</label>
+                    <input type="text" class="input-bar">
+                </div>
+            </div>
+            <div class="form-input">
+                <div class="review">
+                    <label for="" class="contact_label">Review</label>
+                    <textarea name="" id="" cols="57" rows="5" class="input-bar"></textarea>
+                </div>
+            </div>
+            <a href="#" class="button form-btn">Send</a>
+        </div>
+    </section>
+
+
+
+    <!-- Partners -->
+    <section id="partner">
+        <div class="partner-heading">
+            <h3>Our Trusted Partner</h3>
+        </div>
+
+        <div class="logo-container">
+            <img src="image/pearson_logo.png" alt="logo">
+            <img src="image/vintage-books.png" alt="logo">
+            <img src="image/ptpb.png" alt="logo">
+            <img src="image/macmillan.png" alt="logo">
+        </div>
+    </section>
+
+
+
+    <!-- Download App  -->
+    <section id="download-app">
+        <div class="app-img">
+            <img src="image/mobile.PNG" alt="app">
+        </div>
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita voluptatem explicabo quae repudiandae, quasi omnis et, alias adipisci deleniti minima officiis nobis voluptate quidem nihil voluptas doloremque cumque laborum sequi!</p>
+            <div class="download-btns">
+                <a href=""><img src="image/appstore-btn.png" alt="appstore"></a>
+                <a href=""><img src="image/googleplay-btn.png" alt="playstore"></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer  -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#intro"><span>Book</span>Bank</a>
+                <div class="footer-social">
+                    <a href="https://tinyurl.com/4erm296f" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/AnkanGarai03" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/__.i.am.unique.__/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <strong>Genre</strong>
+                <ul>
+                    <li><a href="#recommendations">Fiction</a></li>
+                    <li><a href="#recommendations">Romance</a></li>
+                    <li><a href="#recommendations">Adventure</a></li>
+                    <li><a href="#recommendations">Humor</a></li>
+                    <li><a href="#recommendations">Mystery</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <strong>Contact</strong>
+                <ul>
+                    <li><a href="https://tinyurl.com/52scycab" target="_blank">(+91)9547465515</a></li>
+                    <li><a href="https://tinyurl.com/52scycab" target="_blank">its.ankan.g@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            &#169; All Rights Reserved AnkanGarai03
+        </div>
+    </footer>
+
+</body>
+</html>
